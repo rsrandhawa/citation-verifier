@@ -1,0 +1,30 @@
+.env
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# User input folder (keep skeleton, ignore contents)
+input/*
+!input/.gitkeep
+!input/papers/
+input/papers/*
+!input/papers/.gitkeep
+!input/output/
+input/output/*
+!input/output/.gitkeep
+!input/output/additional_output/
+input/output/additional_output/*
+!input/output/additional_output/.gitkeep
+
+# Test output gitkeeps (dirs already have files)
+test_input/output/.gitkeep
+test_input/output/additional_output/.gitkeep
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
