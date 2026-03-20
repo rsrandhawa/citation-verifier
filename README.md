@@ -127,6 +127,10 @@ CROSSREF_EMAIL=you@edu          # for --fetch-papers
 - **Preamble:** Requires `\usepackage{hyperref}` and `\usepackage{xcolor}`
 - **Python:** 3.10+
 
+## JSTOR Downloader
+
+Need source PDFs? The bundled [JSTOR Downloader](jstor-downloader/) is a Claude Code skill that batch-downloads papers from JSTOR via Chrome automation. Give it your `.bib` file and it fetches all PDFs in ~15 seconds.
+
 ## Not Yet Supported
 
 - Scanned/image-only PDFs (OCR)
